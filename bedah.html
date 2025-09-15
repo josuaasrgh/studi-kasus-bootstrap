@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Bedah Rumah - Berita Lokal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .category {
+            background: #27ae60;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .date {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .lead {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+        
+        .article-text {
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .highlight-box {
+            background: #e8f5e8;
+            border-left: 4px solid #27ae60;
+            padding: 15px;
+            margin: 20px 0;
+        }
+        
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 25px 0;
+        }
+        
+        .info-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .info-card h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        
+        .back-button {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .title {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="category">Bedah Rumah</div>
+            <h1 class="title">Program Bedah Rumah</h1>
+            <p class="date">10 September 2025</p>
+        </div>
+        
+        <div class="content">
+            <p class="lead">
+                Berikut adalah profil penerima bedah rumah yang diadakan oleh pemerintah setempat dalam upaya meningkatkan kualitas hunian masyarakat.
+            </p>
+            
+            <p class="article-text">
+                Program bedah rumah merupakan salah satu inisiatif pemerintah daerah untuk membantu masyarakat kurang mampu dalam memperbaiki kondisi tempat tinggal mereka. Program ini bertujuan untuk menciptakan lingkungan hunian yang layak dan sehat bagi seluruh warga.
+            </p>
+            
+            <div class="highlight-box">
+                <strong>Target Program:</strong> Memberikan bantuan renovasi rumah kepada keluarga yang memenuhi kriteria sebagai penerima program bedah rumah dari pemerintah setempat.
+            </div>
+            
+            <div class="info-grid">
+                <div class="info-card">
+                    <h3>📋 Kriteria Penerima</h3>
+                    <p>Keluarga prasejahtera yang memiliki kondisi rumah tidak layak huni dan memerlukan perbaikan mendesak.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>🏠 Jenis Bantuan</h3>
+                    <p>Renovasi struktur rumah, perbaikan atap, lantai, dinding, dan fasilitas sanitasi dasar.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>👥 Pelaksana</h3>
+                    <p>Dinas Perumahan dan Kawasan Permukiman bekerjasama dengan kontraktor lokal.</p>
+                </div>
+                
+                <div class="info-card">
+                    <h3>⏱️ Timeline</h3>
+                    <p>Program berlangsung sepanjang tahun 2025 dengan target penyelesaian sesuai jadwal yang ditetapkan.</p>
+                </div>
+            </div>
+            
+            <p class="article-text">
+                Melalui program ini, diharapkan dapat meningkatkan kualitas hidup masyarakat dan menciptakan lingkungan yang lebih sehat. Pemerintah setempat terus berkomitmen untuk memastikan setiap warga memiliki akses terhadap hunian yang layak.
+            </p>
+            
+            <p class="article-text">
+                Bagi masyarakat yang merasa memenuhi kriteria dan ingin mengajukan permohonan, dapat menghubungi kantor kelurahan setempat untuk informasi lebih lanjut mengenai prosedur dan persyaratan yang diperlukan.
+            </p>
+            
+            <button class="back-button" onclick="window.history.back()">
+                ← Kembali ke Beranda
+            </button>
+        </div>
+    </div>
+</body>
+</html>

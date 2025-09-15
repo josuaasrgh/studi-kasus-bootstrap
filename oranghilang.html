@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orang Hilang - Berita Lokal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .category {
+            background: #3498db;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 10px;
+        }
+        
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .date {
+            font-size: 14px;
+            opacity: 0.9;
+        }
+        
+        .content {
+            padding: 30px;
+        }
+        
+        .lead {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 25px;
+            font-weight: 500;
+        }
+        
+        .article-text {
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .alert-box {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            border-left: 4px solid #f39c12;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .missing-person-info {
+            background: #f8f9fa;
+            border: 1px solid #e9ecef;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        
+        .info-row:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+        }
+        
+        .info-label {
+            font-weight: bold;
+            color: #2c3e50;
+            min-width: 120px;
+        }
+        
+        .contact-box {
+            background: #e8f5e8;
+            border-left: 4px solid #27ae60;
+            padding: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        
+        .contact-number {
+            font-size: 18px;
+            font-weight: bold;
+            color: #27ae60;
+        }
+        
+        .back-button {
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #2980b9;
+        }
+        
+        .urgent {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 600px) {
+            .container {
+                margin: 10px;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+            
+            .title {
+                font-size: 20px;
+            }
+            
+            .info-row {
+                flex-direction: column;
+            }
+            
+            .info-label {
+                margin-bottom: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="category">Orang Hilang</div>
+            <h1 class="title">Orang Hilang !!!</h1>
+            <p class="date">8 September 2025</p>
+        </div>
+        
+        <div class="content">
+            <p class="lead urgent">
+                Dicari anak berusia 17 tahun yang berciri-ciri seperti gambar berikut:
+            </p>
+            
+            <div class="alert-box">
+                <strong>⚠️ PENTING:</strong> Jika Anda melihat atau mengetahui keberadaan orang yang hilang ini, segera hubungi keluarga atau pihak berwajib.
+            </div>
+            
+            <div class="missing-person-info">
+                <h3 style="margin-bottom: 15px; color: #2c3e50;">📋 Informasi Orang Hilang</h3>
+                
+                <div class="info-row">
+                    <span class="info-label">Usia:</span>
+                    <span>17 tahun</span>
+                </div>
+                
+                <div class="info-row">
+                    <span class="info-label">Jenis Kelamin:</span>
+                    <span>Laki-laki</span>
+                </div>
+                
+                <div class="info-row">
+                    <span class="info-label">Terakhir Terlihat:</span>
+                    <span>Sekitar lingkungan rumah</span>
+                </div>
+                
+                <div class="info-row">
+                    <span class="info-label">Ciri-ciri:</span>
+                    <span>Sesuai dengan foto yang terlampir</span>
+                </div>
+                
+                <div class="info-row">
+                    <span class="info-label">Status:</span>
+                    <span class="urgent">MASIH DICARI</span>
+                </div>
+            </div>
+            
+            <p class="article-text">
+                Keluarga melaporkan bahwa anak tersebut hilang dan belum diketahui keberadaannya hingga saat ini. Pencarian terus dilakukan dengan melibatkan keluarga, tetangga, dan pihak terkait.
+            </p>
+            
+            <p class="article-text">
+                Kami mohon bantuan masyarakat untuk ikut membantu pencarian dengan menyebarkan informasi ini dan melaporkan jika mengetahui keberadaan atau informasi terkait orang yang hilang.
+            </p>
+            
+            <div class="contact-box">
+                <h3 style="margin-bottom: 10px;">📞 Hubungi Kami</h3>
+                <p>Jika memiliki informasi, segera hubungi:</p>
+                <div class="contact-number">Keluarga: 0812-6021-1859</div>
+                <div class="contact-number">Polsek Setempat: 110</div>
+            </div>
+            
+            <p class="article-text" style="font-style: italic; text-align: center; color: #666;">
+                "Bantuan dan doa dari masyarakat sangat berarti bagi keluarga. Semoga segera ditemukan dalam keadaan sehat dan selamat."
+            </p>
+            
+            <button class="back-button" onclick="window.history.back()">
+                ← Kembali ke Beranda
+            </button>
+        </div>
+    </div>
+</body>
+</html>
